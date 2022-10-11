@@ -1,0 +1,21 @@
+.App{
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-list{
+  background-color: white;
+
+  width: 600px;
+  /* height: 400vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0;
+  height: fit-content;
+
+}

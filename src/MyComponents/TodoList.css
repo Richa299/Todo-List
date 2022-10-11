@@ -1,0 +1,63 @@
+.todo{
+    width: 100%;
+}
+.todo-inner{
+    width: 100%;
+    max-height: 60vh;
+    height: fit-content;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+.form{
+    /* margin-left: 2rem; */
+    text-align: center;
+
+}
+.form input{
+    border-radius: 5px 0px 0px 5px;
+    border:2px solid darkslateblue;
+    height: 5vh;
+    background-color: white;
+    width: 25vw;
+    opacity: 0.8;
+}
+.form button{
+    height: 5.8vh;
+    width: 6.8vw;
+    text-align: center;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 0px 5px 5px 0px ;
+    /* margin-left: 1rem; */
+    border:3px solid darkslateblue;
+    cursor: pointer;
+}
+@media screen and (min-width: 910px) and (max-width: 1337px) {
+    .form button{
+        width: 10vw;
+    }
+}
+@media screen and (min-width: 692px) and (max-width: 910px) {
+    .form button{
+        width: 14vw;
+    }
+}
+@media screen and (min-width: 455px) and (max-width: 692px){
+    .form input{
+        width: 40vw;
+    }
+    .form button{
+        width: 20vw;
+    }
+}
+@media screen and (max-width: 455px) {
+    .form input{
+        width: 40vw;
+        margin-left: -10px;
+    }
+    .form button{
+        width: 25vw;
+    }
+}
+
+
